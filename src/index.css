@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 span {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+h1 {
+  color: white;
+  font-size: var(--big-fluid-1);
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-weight: 400;
+  font-size: var(--body-fluid);
+}
+
+a {
+  text-decoration: none;
+  color: #3573a9;
+  font-size: 22px;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-link {
+  display: block;
+  padding: 15px 50px 9px;
+  border-radius: 30px;
+  background: white;
+}
+
+.heading-block h1 .big-1 {
+  font-size: 68px;
+  font-weight:bold;
+}
+
+.heading-block h1 .big-2 {
+  font-size: 76px;
+  font-weight: bolder;
+}
+.heading-block h1 .big-3 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.heading-block h1 .smaller {
+  font-size: 60px;
+}
+
+.heading-block h1 .upper {
+  text-transform: uppercase;
+}
+
+.heading-block h1 .atomic {
+  color: #ea4a33;
+  font-weight: bolder;
+}
+
+.heading-block h1 .full {
+  width: 100%;
+}
+
+.img-wrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
