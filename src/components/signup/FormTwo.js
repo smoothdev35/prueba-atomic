@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 
-function FormTwo({ updatePhone, state, updateSending, nextStep }) {
-
-
+function FormTwo({ updatePhone, updateSending}) {
   const {
     register,
     formState: { errors },
@@ -58,7 +56,7 @@ function FormTwo({ updatePhone, state, updateSending, nextStep }) {
             )}
             {errors.phone?.type === "maxLength" && (
               <div className="error">
-                El número no puede tener mas de 10 dígitos
+                El número no puede tener más de 10 dígitos
               </div>
             )}
           </div>

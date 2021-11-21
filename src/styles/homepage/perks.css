@@ -14,8 +14,8 @@
 }
 
 .perks-illustrations {
-  align-items: start;
-  align-content: start;
+  align-items: flex-start;
+  align-content: flex-start;
   width: 1150px;
   position: relative;
   z-index: 1;
@@ -55,7 +55,7 @@
 
 .perks-list li {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   font-size: 23px;
   font-weight: 600;
   color: white;

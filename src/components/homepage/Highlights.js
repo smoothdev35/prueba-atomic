@@ -1,4 +1,4 @@
-import "./Highlights.css";
+import "../../styles/homepage/highlights.css";
 import cardImg1 from "../../assets/Group 4035.png";
 import cardImg2 from "../../assets/Group 4036.png";
 import cardImg3 from "../../assets/Group 4037.png";
@@ -16,7 +16,7 @@ function Highlights() {
       <div className="cards">
         <article className="flex-wrap-center card explore">
           <div className="img-wrapper" aria-hidden="true">
-            <img width="300" height="200" src={cardImg1} />
+            <img width="300" height="200" alt="" src={cardImg1} />
           </div>
           <div className="flex-wrap-center separation">
             <div className="flex-between custom-break">
@@ -67,7 +67,7 @@ function Highlights() {
         </article>
         <article className="flex-wrap-center card conquer">
           <div className="img-wrapper" aria-hidden="true">
-            <img width="" height="" src={cardImg3} />
+            <img width="300" height="200" alt="" src={cardImg3} />
           </div>
           <div className="flex-wrap-center separation">
             <div className="flex-between custom-break">

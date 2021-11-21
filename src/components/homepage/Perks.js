@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./perks.css";
+import "../../styles/homepage/perks.css";
 import perksImgOne from "../../assets/Group 4041.png";
 import perksImgTwo from "../../assets/Group 4042.png";
 import perksImgThree from "../../assets/Group 4043.png";

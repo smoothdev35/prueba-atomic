@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./hero.css";
+import "../../styles/homepage/hero.css";
 import mainLogo from "../../assets/atomic-logo.webp";
 import cosmonaut from "../../assets/Group 4032.png";
 

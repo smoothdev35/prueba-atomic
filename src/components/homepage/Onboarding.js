@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./onboarding.css";
+import "../../styles/homepage/onboarding.css";
 import onboardImg from "../../assets/Group 4040.png";
 import arrowTwo from "../../assets/right-arrow-2.svg";
 
@@ -29,7 +29,7 @@ function Onboarding() {
             remota
           </div>
           <span className="img-wrapper step-icon" aria-hidden="true">
-            <img width="100" height="100" src={arrowTwo} />
+            <img width="100" height="100" alt="" src={arrowTwo} />
           </span>
           <div className="step-text">
             Entrevista con
@@ -37,7 +37,7 @@ function Onboarding() {
             el área de RH
           </div>
           <span className="img-wrapper step-icon" aria-hidden="true">
-            <img width="100" height="100" src={arrowTwo} />
+            <img width="100" height="100" alt="" src={arrowTwo} />
           </span>
           <div className="step-text">
             Prueba
@@ -45,7 +45,7 @@ function Onboarding() {
             práctica
           </div>
           <span className="img-wrapper step-icon" aria-hidden="true">
-            <img width="100" height="100" src={arrowTwo} />
+            <img width="100" height="100" alt="" src={arrowTwo} />
           </span>
           <div className="step-text">
             Entrevista

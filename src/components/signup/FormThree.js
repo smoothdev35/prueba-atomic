@@ -1,4 +1,3 @@
-import { useEffect} from "react";
 import { useForm } from "react-hook-form";
 import Lapiz from "../../assets/Group 4026@2x.png";
 
@@ -9,12 +8,7 @@ function FormThree({
   updateSending,
   updateSent,
   updateResend,
-  nextStep,
 }) {
-  useEffect(() => {
-    console.log(state);
-  }, []);
-
   const {
     register,
     formState: { errors },

@@ -1,4 +1,4 @@
-import "./terms.css";
+import "../styles/terms.css";
 import Mark from "../assets/Group 4029@2x.png";
 function Terms() {
   return (

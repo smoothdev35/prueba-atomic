@@ -5,7 +5,7 @@ import "./index.css";
 import App from "./App";
 import Signup from "./routes/Signup";
 import Terms from "./routes/Terms";
-import Footer from "./components/Footer";
+import Footer from "./Footer";
 
 ReactDOM.render(
   <BrowserRouter>

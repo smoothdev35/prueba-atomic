@@ -21,7 +21,7 @@ main {
   margin-top: 100px;
   height: auto;
   flex-wrap: wrap;
-  align-items: start;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 1150px) {

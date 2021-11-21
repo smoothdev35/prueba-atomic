@@ -15,7 +15,7 @@
   overflow: hidden;
 }
 .card.above {
-  background: #ea4a33;
+  background: var(--theme-orange);
   transform: scale(1.25);
 }
 
@@ -35,7 +35,7 @@
 }
 
 .card h3 {
-  color: #ea4a33;
+  color: var(--theme-orange);
 }
 
 .card.above h3 {
@@ -47,15 +47,15 @@
 }
 
 .custom-break {
-  align-items: start;
-  align-content: start;
+  align-items: flex-start;
+  align-content: flex-start;
   width: 120px;
   height: 3px;
 }
 
 .custom-break > span {
   height: 3px;
-  background: #ea4a33;
+  background: var(--theme-orange);
   border-radius: 30px;
 }
 

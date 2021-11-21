@@ -6,7 +6,7 @@ function Checked({ updateSent, nextStep }) {
       updateSent(false);
       nextStep();
     }, 3000);
-  }, []);
+  });
   return (
     <div className="loading checked">
       <div className="flex-wrap-center loading-center">

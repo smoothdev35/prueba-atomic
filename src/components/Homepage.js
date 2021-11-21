@@ -1,7 +1,7 @@
-import Hero from "./homepage-components/Hero";
-import Highlights from "./homepage-components/Highlights";
-import Onboarding from "./homepage-components/Onboarding";
-import Perks from "./homepage-components/Perks";
+import Hero from "./homepage/Hero";
+import Highlights from "./homepage/Highlights";
+import Onboarding from "./homepage/Onboarding";
+import Perks from "./homepage/Perks";
 
 function Homepage() {
   return (

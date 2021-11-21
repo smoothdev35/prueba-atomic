@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import Lock from "../../assets/ic_lock_24px@2x.png";
 
-function FormOne({ updateNames, state, nextStep }) {
+function FormOne({ updateNames, nextStep }) {
   const {
     register,
     formState: { errors },

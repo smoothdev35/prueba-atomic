@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./signup.css";
+import "../styles/signup.css";
 import mainLogo from "../assets/atomic-logo.webp";
 import numberOne from "../assets/Group 4014@2x.png";
 import numberTwo from "../assets/Group 4023@2x.png";
@@ -11,14 +11,14 @@ import signupImgOne from "../assets/Group 4033.png";
 import signupImgTwo from "../assets/Group 4034.png";
 import signupImgThree from "../assets/Group 4038.png";
 import signupImgFour from "../assets/Group 4039.png";
-import FormOne from "./signup/FormOne";
-import FormTwo from "./signup/FormTwo";
-import Sending from "./signup/Sending";
-import Sent from "./signup/Sent";
-import Checked from "./signup/Checked";
-import FormThree from "./signup/FormThree";
-import FormFour from "./signup/FormFour";
-import Success from "./signup/Success";
+import FormOne from "../components/signup/FormOne";
+import FormTwo from "../components/signup/FormTwo";
+import Sending from "../components/signup/Sending";
+import Sent from "../components/signup/Sent";
+import FormThree from "../components/signup/FormThree";
+import Checked from "../components/signup/Checked";
+import FormFour from "../components/signup/FormFour";
+import Success from "../components/signup/Success";
 
 const icons = [numberOne, numberTwo, numberThree, numberFour];
 const cosmonauts = [
@@ -154,7 +154,7 @@ function Signup() {
       ...prevState,
       step: prevState.step - 1,
     }));
-    if(state.step === 3){
+    if (state.step === 3) {
       updateNumber(false);
       updateResend(false);
     }
@@ -201,7 +201,6 @@ function Signup() {
         return (
           <FormOne
             updateNames={updateNames}
-            state={state}
             nextStep={nextStep}
           />
         );
@@ -209,9 +208,7 @@ function Signup() {
         return (
           <FormTwo
             updatePhone={updatePhone}
-            state={state}
             updateSending={updateSending}
-            nextStep={nextStep}
           />
         );
       case 3:
@@ -223,13 +220,12 @@ function Signup() {
             updateSending={updateSending}
             updateSent={updateSent}
             updateResend={updateResend}
-            nextStep={nextStep}
           />
         );
       case 4:
-        return <FormFour state={state} nextStep={nextStep} />;
+        return <FormFour nextStep={nextStep} />;
       case 5:
-        return <Success state={state} />;
+        return <Success />;
       default:
     }
   }

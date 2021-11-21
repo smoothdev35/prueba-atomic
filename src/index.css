@@ -52,8 +52,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  justify-items: start;
-  align-items: start;
+  justify-items: flex-start;
+  align-items: flex-start;
 }
 
 ul li {
@@ -121,7 +121,7 @@ ul li {
 }
 
 .heading-block h1 .atomic {
-  color: var(--theme-oranges);
+  color: var(--theme-orange);
   font-weight: bolder;
 }
 
