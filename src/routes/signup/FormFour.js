@@ -1,19 +1,38 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-function FormFour() {
+import { useForm } from "react-hook-form";
+
+function FormFour({ state, nextStep }) {
+  useEffect(() => {
+    console.log(state);
+  }, []);
+  const {
+    register,
+    formState: { errors },
+    handleSubmit,
+  } = useForm({ shouldUseNativeValidation: true });
+
+  const onSubmit = () => {
+    nextStep();
+  };
+
   return (
     <div className="flex-wrap-center form-wrapper step-four">
       <div className="sub-block">
         <h4>
           Por favor revisa nuestros términos y condiciones para este servicio:
         </h4>
-        <Link to="/privacy" target="_blank" className="consent-link">
+        <Link to="/terms" target="_blank" className="consent-link">
           Consulta Términos y Condiciones
         </Link>
       </div>
-      <form className="flex-wrap-center step-four">
+      <form
+        className="flex-wrap-center step-four"
+        onSubmit={handleSubmit(onSubmit)}
+      >
         <div className="form-item">
-          <label for="consent">
-            <input name="consent" type="checkbox" required />
+          <label>
+            <input type="checkbox" required />
             <span className="custom-checkbox"></span>
             <span className="label-text">
               Acepto los Términos y Condiciones

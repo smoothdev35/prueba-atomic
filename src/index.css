@@ -1,6 +1,7 @@
 :root {
   --dynamic-padding: calc((100vw - 1150px) / 2);
   --main-transition:all 0.2s ease;
+  --theme-orange:#ea4a33;
 }
 
 * {

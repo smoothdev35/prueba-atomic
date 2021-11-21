@@ -35,7 +35,7 @@ function Hero() {
             <span className="smaller">dentro</span>
             <span className="smaller">del</span>
             <span className="smaller">equipo</span>
-            <span class="full">
+            <span className="full">
               <span className="big-3 upper atomic">atomic</span>
               <span className="big-3 upper">labs</span>
             </span>

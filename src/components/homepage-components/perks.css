@@ -34,15 +34,17 @@
 
 .perks-details {
   width: 100%;
-  background: #1c609d;
   border-top-left-radius: 120px;
   border-top-right-radius: 120px;
   margin-top: -210px;
   padding: 0 var(--dynamic-padding);
+  background:#1c609d url("../../assets/space-background.webp") no-repeat 50% 0;
+  background-size:cover;
+  background-blend-mode:screen;
 }
 
 .perks-lists {
-  margin-top: 170px;
+  margin-top: 170px; 
 }
 
 .perks-list {
@@ -81,12 +83,22 @@
 
 .perks-table-wrapper::before {
   content: "";
-  width: 100%;
+  width: 73.5%;
   height: 40px;
   position: absolute;
   top: 0;
   left: 0;
-  background: red;
+  background: white;
+}
+
+.perks-table-wrapper::after {
+  content: "";
+  width: 40px;
+  height:100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #e9f1f7;
 }
 
 .perks-table {
@@ -119,7 +131,7 @@
   font-size: 22px;
 }
 .perks-table h3.big {
-  font-size: 32px;
+  font-size: 36px;
   position: relative;
 }
 
@@ -145,7 +157,7 @@
 }
 
 .content-row > td {
-  padding: 12px 0;
+  padding: 12px 0 10px;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
