@@ -1,0 +1,103 @@
+.cards {
+  display: flex;
+  width: 1150px;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.card {
+  width: calc(100% / 3);
+  height: 470px;
+
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card.above {
+  background: #ea4a33;
+  transform: scale(1.25);
+}
+
+.card .img-wrapper {
+  width: 42.5%;
+  margin: 0 28.75%;
+  margin-top: -10px;
+}
+
+.card.above .img-wrapper {
+  width: 45%;
+  margin: -2% 27.5%;
+}
+
+.card.conquer .img-wrapper {
+  width: 40%;
+}
+
+.card h3 {
+  color: #ea4a33;
+}
+
+.card.above h3 {
+  color: white;
+}
+
+.separation {
+  margin-top: 0;
+}
+
+.custom-break {
+  align-items: start;
+  align-content: start;
+  width: 120px;
+  height: 3px;
+}
+
+.custom-break > span {
+  height: 3px;
+  background: #ea4a33;
+  border-radius: 30px;
+}
+
+.card.above .custom-break > span {
+  background: white;
+}
+
+.custom-break > span:nth-of-type(1),
+.custom-break > span:nth-of-type(3) {
+  width: 35%;
+}
+
+.custom-break > span:nth-of-type(2) {
+  width: 8%;
+}
+
+.separation h3 {
+  width: 100%;
+  margin-top: -2.5%;
+  text-align: center;
+}
+
+.card-list {
+  width: 100%;
+  height: 27.5%;
+  margin: 10px 15% 0;
+}
+
+.card-list li {
+  color: #072348;
+  font-size: 21px;
+  margin-left: 10%;
+  font-weight: 400;
+}
+.card-list li::marker {
+  font-size: 30px;
+}
+
+.card-list li strong {
+  font-weight: 600;
+}
+
+.card.above .card-list li {
+  color: white;
+}

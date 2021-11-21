@@ -1,0 +1,27 @@
+.onboarding-content {
+  width: 1200px;
+  margin-top: 30px;
+}
+
+.onboarding-steps {
+  width: 95%;
+  margin-top: 5px;
+}
+
+.onboarding-steps > * {
+  font-weight: 400;
+}
+
+.step-text {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.step-icon {
+  width: 3.5%;
+}
+
+.onboarding-content > .button-link {
+  margin-top: 80px;
+}
