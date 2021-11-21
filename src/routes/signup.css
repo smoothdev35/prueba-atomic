@@ -1,7 +1,8 @@
 .section.signup {
   height: 100vh;
   margin-top: 0;
-  background: #072348;
+  background: url("../assets/Mask\ Group\ 1@2x.png") no-repeat 100% 100%;
+  background-size:120%;
 }
 
 .signup-content {
@@ -431,7 +432,7 @@ input:invalid + .error{
 }
 .loading-center p{
   width:100%;
-  margin-top:5px;
+  margin-top:10px;
   color:white;
   font-size:20px;
   text-align:center;

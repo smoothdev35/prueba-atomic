@@ -121,7 +121,7 @@ ul li {
 }
 
 .heading-block h1 .atomic {
-  color: #ea4a33;
+  color: var(--theme-oranges);
   font-weight: bolder;
 }
 

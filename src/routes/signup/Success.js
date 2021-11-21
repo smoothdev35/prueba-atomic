@@ -1,4 +1,9 @@
-function Success() {
+import { useEffect } from "react";
+
+function Success({state}) {
+  useEffect(() => {
+    console.log(state);
+  }, []);
   return (
     <div className="flex-wrap-center form-wrapper success">
       <div className="sub-block">

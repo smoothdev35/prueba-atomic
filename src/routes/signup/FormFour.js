@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
@@ -7,8 +7,6 @@ function FormFour({ state, nextStep }) {
     console.log(state);
   }, []);
   const {
-    register,
-    formState: { errors },
     handleSubmit,
   } = useForm({ shouldUseNativeValidation: true });
 

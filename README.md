@@ -68,6 +68,6 @@ el formulario con uno o más errores. De igual manera, los detalles de los error
 
 Definitivamente me parecería importante extraer otros cuantos subcomponentes en algunas partes con tal de tener una mejor visibilidad.
 De igual manera, me hubiera gustado implementar nested routing para que los etapas de inscripción se integren correctamente dentro de la navegación
-y se vean reflejados en el URL.  
+y se vean reflejados en el URL.
 
 
