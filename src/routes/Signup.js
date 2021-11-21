@@ -154,7 +154,7 @@ function Signup() {
       ...prevState,
       step: prevState.step - 1,
     }));
-    if (state.step === 3) {
+    if (state.step === 2) {
       updateNumber(false);
       updateResend(false);
     }

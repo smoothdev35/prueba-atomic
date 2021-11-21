@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import Lock from "../../assets/ic_lock_24px@2x.png";
 
 function FormFour({ nextStep }) {
   const {
@@ -36,7 +37,9 @@ function FormFour({ nextStep }) {
 
         <button className="submit-button" type="submit">
           Enviar
-          <span className="lock-icon"></span>
+          <span className="img-wrapper" aria-hidden="true">
+            <img width="30" height="30" alt="" src={Lock}/>
+          </span>
         </button>
       </form>
     </div>

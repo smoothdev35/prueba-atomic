@@ -66,7 +66,7 @@ el formulario con uno o más errores. De igual manera, los detalles de los error
 
 ### De haber tenido más tiempo..
 
-Definitivamente me parecería importante extraer otros cuantos subcomponentes en algunas partes con tal de tener una mejor visibilidad.
+Definitivamente me parecería importante extraer otros cuantos subcomponentes en algunas partes, y volver a hacer una pasada del html/css para borrar los selectores sin usar y las posibles repeticiones, con tal de tener una mejor visibilidad.
 De igual manera, me hubiera gustado implementar nested routing para que los etapas de inscripción se integren correctamente dentro de la navegación
 y se vean reflejados en el URL.
 

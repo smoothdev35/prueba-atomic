@@ -244,6 +244,15 @@ progress[value]::-moz-progress-bar {
   transition: var(--main-transition);
 }
 
+.form-wrapper.step-four .submit-button{
+  justify-content:space-evenly;
+}
+
+.submit-button > .img-wrapper{
+  width:15px;
+  transition:var(--main-transition);
+}
+
 .signup-right {
   display: flex;
   align-items: center;
@@ -446,6 +455,10 @@ input:invalid + .error {
   .submit-button:hover {
     background: white;
     color: var(--theme-orange);
+  }
+  .form-wrapper.step-four .submit-button:hover .img-wrapper{
+    mix-blend-mode:difference;
+    opacity:0.6;
   }
   .resend-row button:hover {
     color: var(--theme-orange);

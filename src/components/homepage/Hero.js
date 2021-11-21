@@ -4,6 +4,14 @@ import mainLogo from "../../assets/atomic-logo.webp";
 import cosmonaut from "../../assets/Group 4032.png";
 
 function Hero() {
+
+  const goDown=()=>{
+    window.scrollTo({
+      top:850,
+      behavior:"smooth"
+    })
+  }
+
   return (
     <header className="section hero">
       <div className="block-link">
@@ -50,7 +58,7 @@ function Hero() {
         </div>
       </article>
       <div className="flex-wrap-center see-more">
-        <button aria-label="avanzar de una seccion en la pagina"></button>
+        <button aria-label="avanzar de una seccion en la pagina" onClick={goDown}></button>
         <h4>Quiero saber más</h4>
       </div>
     </header>

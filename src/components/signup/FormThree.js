@@ -68,6 +68,7 @@ function FormThree({
                 maxLength: 6,
                 validate: (value) => value === "337801",
               })}
+              autoComplete="off"
             />
             {errors.código?.type === "required" && (
               <div className="error">
